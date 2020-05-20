@@ -1,13 +1,21 @@
 package se.lexicon.michelle;
 
-/**
- * Hello world!
- *
- */
-public class App 
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        runListRelatedPrints();
     }
+
+    public static void runListRelatedPrints(){
+        ListRelatedExercises listRelated = new ListRelatedExercises();
+
+        //listRelated.printDaysOfTheWeek();
+        //listRelated.iterateAndPrintAllWeekdays();
+        //listRelated.removeThenAddThursdayPrintAllWeekdays();
+        listRelated.usingSublistPrintAllWeekdays();
+    }
+
+
 }
