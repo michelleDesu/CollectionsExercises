@@ -1,8 +1,8 @@
 package se.lexicon.michelle;
 
 public class Car {
-    int id;
-    String brand,
+    private int id;
+    private String brand,
             model;
 
     public Car(int id, String brand, String model) {

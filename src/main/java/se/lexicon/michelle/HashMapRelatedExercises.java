@@ -46,4 +46,30 @@ public class HashMapRelatedExercises {
         System.out.println(hashMap.values());
     }
 
+    //11. Create a new hashMap of type <Integer,String> and populate it with
+    //Create a new hashMap of type <Integer,Car> and
+    // populate it with elements containing an id(Integer) and a car object(Car).
+    // Lastly, print out only the car's brand.
+
+    public void printOutCarBrand(){
+        HashMap<Integer, Car> hashMap = new HashMap<>();
+
+        Car     car1 = new Car(1,"Volvo", "Combi"),
+                car2 = new Car(2, "Saab", "Sport"),
+                car3 = new Car(3, "Ford", "Combi"),
+                car4 = new Car(4,"Lamborghini", "Sport"),
+                car5 = new Car ( 5 , "Toyota", "Sedan");
+
+        hashMap.put(1,car1 );
+        hashMap.put(2,car2 );
+        hashMap.put(3,car3  );
+        hashMap.put(4,car4 );
+        hashMap.put(5,car5  );
+        for(Integer i : hashMap.keySet()){
+            System.out.println(hashMap.get(i).getBrand());
+        }
+
+
+    }
+
 }

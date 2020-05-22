@@ -7,7 +7,12 @@ public class App
     {
         //runListRelatedPrints();
         //runHashSetRelatedPrints();
-        runHashMapRelatedExercises();
+        //runHashMapRelatedExercises();
+        runChallenges();
+    }
+
+    private static void runChallenges() {
+
     }
 
     private static void runHashMapRelatedExercises() {
@@ -15,6 +20,7 @@ public class App
         hashMapRelated.printHashMap();
         hashMapRelated.printOnlyKeysHashMap();
         hashMapRelated.printOnlyValuesHashMap();
+        hashMapRelated.printOutCarBrand();
 
     }
 
