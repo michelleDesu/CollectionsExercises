@@ -8,14 +8,14 @@ public class App
         //runListRelatedPrints();
         //runHashSetRelatedPrints();
         //runHashMapRelatedExercises();
-        runChallenges();
+        //runChallenges();
     }
 
     private static void runChallenges() {
         Challenges challenges = new Challenges();
-       // challenges.compareSet();
-        //challenges.populateUsingKeys();
-        //challenges.sortByAge();
+        challenges.compareSet();
+        challenges.populateUsingKeys();
+        challenges.sortByAge();
         challenges.printArrayCollection();
 
     }
