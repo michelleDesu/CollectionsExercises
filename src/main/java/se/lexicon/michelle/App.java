@@ -15,7 +15,8 @@ public class App
         Challenges challenges = new Challenges();
        // challenges.compareSet();
         //challenges.populateUsingKeys();
-        challenges.sortByAge();
+        //challenges.sortByAge();
+        challenges.printArrayCollection();
 
     }
 

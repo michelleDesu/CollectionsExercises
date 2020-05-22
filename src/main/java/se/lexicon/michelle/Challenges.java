@@ -71,4 +71,10 @@ public class Challenges {
     //4. Create an array of type int with numbers: {1,4,4,2,6,7}.
     // Next, create an appropriate Collection and populate it with the content of the int array.
     // Lastly, print out each element in the Collection without duplicates.
+    public void printArrayCollection() {
+        Integer[] intArray = {1,4,4,2,6,7};
+        Set<Integer> hashSet = new HashSet<>(Arrays.asList(intArray));
+        System.out.println(hashSet);
+
+    }
 }
