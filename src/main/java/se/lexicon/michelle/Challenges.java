@@ -47,8 +47,10 @@ public class Challenges {
 
         System.out.println(keys);
     }
+
     //3. Create a new class and call it SuperHero.
-    // Add fields for Id,Name and Age + getters and setters. Have the class implement the Comparable interface. Implement the override method and have it compare the AGE of the superhero.
+    // Add fields for Id,Name and Age + getters and setters. Have the class implement the Comparable interface.
+    // Implement the override method and have it compare the AGE of the superhero.
     // Next, create a new arrayList of type SuperHero.
     // Sort the list by age and print out each element.
 
