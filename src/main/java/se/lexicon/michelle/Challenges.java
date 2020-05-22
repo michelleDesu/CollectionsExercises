@@ -1,8 +1,6 @@
 package se.lexicon.michelle;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Challenges {
 
@@ -48,11 +46,27 @@ public class Challenges {
         System.out.println(keys);
     }
 
+
+
     //3. Create a new class and call it SuperHero.
     // Add fields for Id,Name and Age + getters and setters. Have the class implement the Comparable interface.
     // Implement the override method and have it compare the AGE of the superhero.
     // Next, create a new arrayList of type SuperHero.
     // Sort the list by age and print out each element.
+    public void sortByAge() {
+
+        List<SuperHero> superheroes = new ArrayList<>();
+        superheroes.add(new SuperHero(1, 17, "Kitty Pryde"));
+        superheroes.add(new SuperHero(1, 70, "Bruce Wayne"));
+        superheroes.add(new SuperHero(1, 2000, "Professor Ospin"));
+        superheroes.add(new SuperHero(1, 22, "Hope Summers"));
+        superheroes.add(new SuperHero(1, 16, "Ruby Rose"));
+
+
+        Collections.sort(superheroes);
+
+        System.out.println(Arrays.toString(superheroes.toArray()));
+    }
 
     //4. Create an array of type int with numbers: {1,4,4,2,6,7}.
     // Next, create an appropriate Collection and populate it with the content of the int array.

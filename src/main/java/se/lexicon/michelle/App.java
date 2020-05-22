@@ -14,7 +14,8 @@ public class App
     private static void runChallenges() {
         Challenges challenges = new Challenges();
        // challenges.compareSet();
-        challenges.populateUsingKeys();
+        //challenges.populateUsingKeys();
+        challenges.sortByAge();
 
     }
 

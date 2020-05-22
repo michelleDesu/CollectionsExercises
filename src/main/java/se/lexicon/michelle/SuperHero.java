@@ -42,4 +42,15 @@ public class SuperHero implements Comparable<SuperHero>{
     public int compareTo(SuperHero obj) {
         return Integer.compare(age, obj.age);
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("SuperHero{");
+        sb.append("id=").append(id);
+        sb.append(", age=").append(age);
+        sb.append(", name='").append(name).append('\'');
+        sb.append('}');
+        sb.append("\n");
+        return sb.toString();
+    }
 }
